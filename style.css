@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Rubik:wght@600&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Rubik', sans-serif;
+  }
+  
+  #image11 img {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	border-radius: 20px;
+	border: 5px solid #262626;
+	box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+  }
+  
+  body {
+	width: 100%;
+	height: 100vh;
+	color: #ffffff;
+	background: linear-gradient(-45deg, #b2ee52, #3ce789, #23abd5, #23d5ab);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 12s ease-in-out infinite;
+  }
+  
+  #btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	color: #262626;
+	background-color: #00000000;
+	border: none;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 12px 25px;
+	margin: 0 auto;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 5px solid #262626;
+	box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+	outline: none;
+  }
+  
+  h1 {
+	position: absolute;
+	color: #262626;
+	top: 10.7%;
+	left: 30.3%;
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+	word-wrap: break-word;
+	line-height: 30px;
+	margin-bottom: 30px 0;
+  }
+  
+  h2 {
+	position: absolute;
+	color: #ffffff;
+	top: 9.7%;
+	left: 30%;
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+	word-wrap: break-word;
+	line-height: 30px;
+	margin-bottom: 30px 0;
+	border: 6px solid #ffffff48;
+	border-radius: 10px;
+  }
+  
+  h3 {
+	position: absolute;
+	color: #ffffff25;
+	top: 90%;
+	left: 23.5%;
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+	word-wrap: break-word;
+	line-height: 30px;
+	margin-bottom: 30px 0;
+  }
+  
+  #textoutput {
+	position: absolute;
+	color: #ffffffd5;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+	text-align: center;
+	font-weight: 200;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 50px 0;
+	border: 6px solid #18181863;
+	border-radius: 10px;
+  }
+  
+
+  #text1 {
+	position: absolute;
+	color: #ffffffd5;
+	top: 20%;
+	left: 50.5%;
+	width: 1000px;
+	font-size: 2em;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 50px 0;
+
+
+  }
+
+  #text2 {
+	color:rgba(231, 231, 229, 0.342)
+  }
+
+  @media screen and (max-width: 1000px) {
+	#textoutput {
+	  width: 300px;
+	  top: 80%;
+	}
+	#text1 {
+	  width: 300px;
+	  top: 17%;
+	}
+	#btn {
+	  top: 55%;
+
+	}
+  }
